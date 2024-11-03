@@ -1,0 +1,26 @@
+
+package deguzman_employee;
+
+abstract public class StaffMember {
+    protected String Name, Address, Phone;
+    
+    public StaffMember(String eName, String eAddress, String ePhone){
+        
+        Name = eName;
+        Address = eAddress;
+        Phone = ePhone;
+        
+    }
+    
+    public String toString(){
+        
+        String result = "Name: " + Name + "\n";
+         result += "Residence Address: " + Address + "\n";
+        result += "Contact Number: " + Phone;
+        return result;
+        
+    }
+    
+    public abstract double pay();
+    
+}
