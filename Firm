@@ -1,0 +1,13 @@
+
+package deguzman_employee;
+
+
+public class Firm extends Staff {
+    
+    public static void main(String[]args){
+        
+        Staff personnel = new Staff();
+        personnel.payday();
+        
+    }
+}
