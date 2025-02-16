@@ -1,0 +1,43 @@
+  float num1, num2, num3, num4, num5, num6, num7;
+    
+    // Read inputs correctly
+    num1 = Float.parseFloat(Subject1.getText());
+    num2 = Float.parseFloat(Subject2.getText());
+    num3 = Float.parseFloat(Subject3.getText());
+    num4 = Float.parseFloat(Subject4.getText());
+    num5 = Float.parseFloat(Subject6.getText());
+    num6 = Float.parseFloat(Subject5.getText());
+    num7 = Float.parseFloat(Average.getText());
+
+    // Assign grades
+    Remark1.setText(getGrade(num1));
+    Remark2.setText(getGrade(num2));
+    Remark3.setText(getGrade(num3));
+    Remark4.setText(getGrade(num4));
+    Remark5.setText(getGrade(num5));
+    Remark6.setText(getGrade(num6));
+    Remark7.setText(getGrade(num7));
+}
+
+// Method to get grade based on score
+private String getGrade(float score) {
+    if (score >= 90) {
+        return "A";
+    } else if (score >= 85) {
+        return "B";
+    } else if (score >= 80) {
+        return "C";
+    } else if (score >= 70) {
+        return "D";
+    } else if (score >= 60) {
+        return "E";
+    } else if (score >= 50) {
+        return "Poor";
+    } else {
+        return "Fail"; // Added a default grade for scores below 50
+    }
+    }                                       
+
+    /**
+     * @param args the command line arguments
+     */
