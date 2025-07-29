@@ -1,1 +1,28 @@
-upshd laspi
+System.out.println("\tENROLLMENT STUDENT LOAD");
+System.out.print("Student ID:");
+System.out.println("25745617");
+System.out.print("Student Name:");
+System.out.println("DE GUZMAN, TOBIT B.");
+System.out.println("Student Signature:");
+System.out.println("===================================");
+
+System.out.println("Maximum units student can take: 25.0");
+System.out.print("\tSUBJECT CODE");
+System.out.print("\t|SUBJECT TITLE");
+System.out.print("\t|LEC UNITS");
+System.out.print("\t|LAB UNITS");
+System.out.print("\t|TOTAL UNITS");
+System.out.print("\t|UNITS TAKEN");
+System.out.print("\t|SECTION");
+System.out.print("\t|ROOM");
+System.out.println("\t|SCHEDULE");
+System.out.println("-----------------------------------------------------");
+
+System.out.println("GEC 6000 Contemporary World\t3.0\t0.0\t3.0\t77194\t208\tM T 10:00AM-11:30AM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tField AL T 10:00-11:30AM");
+System.out.println("");
+
+System.out.println("GEC 8000 Science,Tech,Society\t3.0\t0.0\t3.0\t77195\t208\tT 1:00PM-2:30PM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tOL-CCS-101\tF 1:00PM-2:30PM");
+System.out.println("");
+
+System.out.println("GEE 2000 Entrepreneurial Mind\t3.0\t0.0\t3.0\t77195\t208\tT 1:00PM-2:30PM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tOL-CCS-101\tF 1:00PM-2:30PM");
+System.out.println("");
