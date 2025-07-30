@@ -1,28 +1,59 @@
-System.out.println("\tENROLLMENT STUDENT LOAD");
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+       System.out.println("\tENROLLMENT STUDENT LOAD");
 System.out.print("Student ID:");
 System.out.println("25745617");
 System.out.print("Student Name:");
 System.out.println("DE GUZMAN, TOBIT B.");
 System.out.println("Student Signature:");
-System.out.println("===================================");
+System.out.println("===============================================================================================================");
 
 System.out.println("Maximum units student can take: 25.0");
-System.out.print("\tSUBJECT CODE");
+System.out.print("SUBJECT CODE");
 System.out.print("\t|SUBJECT TITLE");
-System.out.print("\t|LEC UNITS");
-System.out.print("\t|LAB UNITS");
-System.out.print("\t|TOTAL UNITS");
-System.out.print("\t|UNITS TAKEN");
-System.out.print("\t|SECTION");
-System.out.print("\t|ROOM");
+System.out.print("|LEC UNITS");
+System.out.print("|LAB UNITS");
+System.out.print("|TOTAL UNITS");
+System.out.print("|UNITS TAKEN");
+System.out.print("|SECTION");
+System.out.print("|ROOM");
 System.out.println("\t|SCHEDULE");
-System.out.println("-----------------------------------------------------");
+System.out.println("===============================================================================================================");
 
-System.out.println("GEC 6000 Contemporary World\t3.0\t0.0\t3.0\t77194\t208\tM T 10:00AM-11:30AM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tField AL T 10:00-11:30AM");
+System.out.println("GEC 6000 Contemporary World\t       3.0\t  0.0\t     3.0\t    3.0 \t   77194\t208   M 10:00AM-11:30AM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t                  Field A TH 10:00-11:30AM");
 System.out.println("");
 
-System.out.println("GEC 8000 Science,Tech,Society\t3.0\t0.0\t3.0\t77195\t208\tT 1:00PM-2:30PM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tOL-CCS-101\tF 1:00PM-2:30PM");
+System.out.println("GEC 8000 Science,Tech,Society      3.0\t  0.0\t     3.0\t    3.0 \t   77195\t  208 T 1:00PM-2:30PM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                  OL-CCS-10    F 1:00PM-2:30PM");
 System.out.println("");
 
-System.out.println("GEE 2000 Entrepreneurial Mind\t3.0\t0.0\t3.0\t77195\t208\tT 1:00PM-2:30PM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tOL-CCS-101\tF 1:00PM-2:30PM");
+System.out.println("GEE 2000 Entrepreneurial Mind      3.0\t  0.0\t     3.0\t    3.0 \t   66112\t  208\tM 1:00PM-2:30PM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                   OL-CCS-06 TH 1:00PM-2:30PM");
 System.out.println("");
+
+System.out.println("FCL 1101 Identity and Dignity      2.0\t  0.0\t     2.0\t    2.0 \t   07083\t  210\tT 7:00AM-9:00AM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t         ");
+System.out.println("");
+
+System.out.println("NSTP 1101  National Service\t       3.0\t  0.0\t     3.0\t    3.0 \t   99100\tField A\tSAT 8:00AM-11:00AM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                    ");
+System.out.println("");
+
+System.out.println("PE 1100 Physical Activities\t       2.0\t  0.0\t     2.0\t    2.0 \t   81525\t  GYM\tT 9:00AM-11:00AM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                  ");
+System.out.println("");
+
+System.out.println("BSCSIT1101 Intro to Computing-LAB  2.0\t  0.0\t     2.0\t    2.0 \t   50001\t   OL-CCS-01\tF 7:00AM-9:30AM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t");
+System.out.println("");
+
+System.out.println("BSCSIT1101L Intro to Computing-LEC 0.0\t  1.0\t     1.0\t    1.0 \t   50002\t  206\t   MW 8:30AM-10:00AM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t");
+System.out.println("");
+
+System.out.println("BSCSIT1102 Fund of Programming-Lec 2.0\t  0.0\t     2.0\t    2.0 \t   50003\t  OL-CCS-01\tF 9:00AM-11:00AM\t\t\t\t\t\t\t\t\t\t\t\t\t\t");
+System.out.println("");
+
+System.out.println("BSCSIT1102L Fund of Programming-Lab 0.0\t  1.0\t     1.0\t    1.0 \t   50004\t  206\tMW 7:00AM-8:30AM");
+System.out.println("");
+
+System.out.println("BSCS 1101 Discrete Structure 1\t  3.0\t  0.0\t     3.0\t    3.0 \t   50000\t  208\tT 11:30AM-1:30PM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                               Field A  F 11:30PM-1:00PM");
+System.out.println("");
+    }
+}
